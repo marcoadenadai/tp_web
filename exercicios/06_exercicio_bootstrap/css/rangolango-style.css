@@ -1,0 +1,50 @@
+body {background-color: #ebebee; color: #646464;
+/*background: url(https://www.historyonthenet.com/wp-content/uploads/2014/07/400px-Aztec_calendar.svg__0.png)}*/
+}
+h1, h2, h3, h4, h5, h6 {color: #4d4d4d;}
+
+.midpage {  background-color: #f0f0f0;
+            box-shadow: 0.07em 0.05em 0.2em 0em;
+            /*border-block-start: solid;
+            border-color: #fa9522;
+            border-width: 0.2em;*/
+        }
+
+.color_bg {color: #FAE6A2}
+.color_txt {color: #6E442B}
+.color_hlgh {color:  #777777}
+
+.custom_drop { background-color: #58349b; color: #FAE6A2;}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #FAE6A2;
+    background-color: #58349b;
+  }
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #58349b;
+    background-color: #FAE6A2;
+  }
+
+.dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #7c36ff;
+  }
+  
+
+nav {background-color: #58349b; color: #eab077; border-bottom:  solid; border-width: 0.1em;}
+
+footer {color: #FAE6A2; background: #6E442B;
+text-align: right;}
+
+.filter-brown{
+    filter: invert(80%) sepia(14%) saturate(1798%) hue-rotate(338deg) brightness(97%) contrast(89%);
+}
+
+/*
+eab077 --- ocre
+f0f0f0 --- bg1
+ffffff --- bg2
+*/
