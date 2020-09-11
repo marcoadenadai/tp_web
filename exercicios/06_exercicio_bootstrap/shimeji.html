@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/lagartixa.png">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/rangolango-style.css">
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/marco.js"></script>
+    <title>Rango Lango</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="col-1">
+            <a href="index.html" class="btn" aria-label="Home Page">
+                <img src="img/icons/home.svg" width="32" height="32"  class="filter-brown" alt="Home">
+            </a>
+        </div>
+        <div class="dropdown">
+            <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="img/icons/receitas.svg" width="32" height="32" class="filter-brown"  alt="Receitas">
+            </button>
+            <div class="dropdown-menu my-2 custom_drop" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item custom_drop" onclick="bttnRandom()">Receita Aleatória</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item custom_drop" href="shimeji.html">Hamburguer de shimeji</a>
+                <a class="dropdown-item custom_drop" href="cebola_caramelo.html">Cebola caramelizada</a>
+                <a class="dropdown-item custom_drop" href="strogonoff.html">Strogonoff de frango</a>
+            </div>
+        </div>
+        <div class="col-1">
+            <a href="search.html" class="btn" aria-label="Home Page">
+                <img src="img/icons/search.svg" width="32" height="32" class="filter-brown"  alt="Pesquisar">
+            </a>
+        </div>
+        <div class="col-7"></div>
+    </nav>
+
+    <div class="row py-1"></div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col midpage py-2"><br>
+            <h2 class="col-9">Hambúrguer de Shimeji</h2>
+            <h6 class="text-right" style="position: absolute; right: 1.5em; float: top; top: 1.5em">Preparo: 2 horas<br>Rende: 6 porções</h6>
+            <br>
+            <!----------------------------------------------------------------------------->
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <strong><em>Ingredientes</em></strong>
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+
+                    
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="ing1">
+                        <label class="custom-control-label" for="ing1">800g de Shimeji</label>
+                    </div><br>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="ing2">
+                        <label class="custom-control-label" for="ing2">80g de Farinha de rosca</label>
+                    </div><br>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="ing3">
+                        <label class="custom-control-label" for="ing3">70g de Farinha de tirgo integral</label>
+                    </div><br>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="ing4">
+                        <label class="custom-control-label" for="ing4">6 dentes de alho</label>
+                    </div><br>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="ing5">
+                        <label class="custom-control-label" for="ing5">2 colheres de sopa de óleo vegetal</label>
+                    </div><br>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="ing6">
+                        <label class="custom-control-label" for="ing6">2 colheres de shoyu</label>
+                    </div><br>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="ing7">
+                        <label class="custom-control-label" for="ing7">10g de sal (2 col. de chá)</label>
+                    </div><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <strong><em>Mise en place</em></strong>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Separar os ingredientes;<br>
+                        Descascar e picar o alho;<br>
+                        Lavar, separar e secar o shimeji;<br>
+                        Preparar um processador para misturar tudo;<br>
+                        Certifique-se que você tem uma peneira/escorredor de macarrão, e uma panela;<br>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong><em>Modo de preparo</em></strong>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        1) Em uma panela grande, aqueça o óleo e adicione o alho descascado e picado. Refogue até dourar levemente;
+                        <br><br>2) Transfira os cogumelos para a panela e adicione o sal, o shoyu e a pimenta do reino (opcional). Misture bem e deixe cozinhar. Para o hambúrguer ficar com textura e consistência perfeita, é necessário cozinhar o shimeji até a maior parte de sua água evaporar;
+                        <br><br>3) Transfira o refogado para uma peneira e deixe escorrer o excesso de água até amornar;
+                        <br><br>4) Em um processador adicione o shimeji, a cebolinha, a farinha de rosca e a farinha de trigo. Triture tudo até ficar homogêneo. Não bata os ingredientes por muito tempo, deixe a mistura mais rústica e grosseira para dar textura ao hambúrguer. A massa deve ficar úmida e ser possível de modelar sem se despedaçar com facilidade;
+                        <br><br>5) Divida a massa em partes iguais e modele os hambúrgueres;                        
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <!----------------------------------------------------------------------------->
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <br>
+
+</body>
+</html>

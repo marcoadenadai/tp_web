@@ -8,6 +8,7 @@
     <link type="text/css" rel="stylesheet" href="css/rangolango-style.css">
     <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/marco.js"></script>
     <title>Rango Lango</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
                 <img src="img/icons/receitas.svg" width="32" height="32" class="filter-brown"  alt="Receitas">
             </button>
             <div class="dropdown-menu my-2 custom_drop" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item custom_drop" href="#">Receita Aleatória</a>
+                <a class="dropdown-item custom_drop" onclick="bttnRandom()">Receita Aleatória</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item custom_drop" href="shimeji.html">Hamburguer de shimeji</a>
                 <a class="dropdown-item custom_drop" href="cebola_caramelo.html">Cebola caramelizada</a>
@@ -37,17 +38,22 @@
         <div class="col-7"></div>
     </nav>
 
-    
     <div class="row py-1"></div>
     <div class="row">
         <div class="col-2"></div>
         <div class="col midpage py-2 text-center">
-            <h1>Mande Buskare</h1>
+            <h1>Buskare</h1>
             <br><br>
             <img src="img/busca_guru.png" class="img-fluid" alt="Ilustracao Busca" width=200em height=200em>
             <br><br><br>
             <form>
-                <input type="search" class="form-control" id="busca" aria-describedby="search" placeholder="O que você está procurando?">
+                <div class="d-flex">
+                        <input type="search" class="form-control" id="busca" aria-describedby="search" placeholder="O que você está procurando?">
+                        <HR width="1%" noshade style="visibility: hidden">
+                        <input type="button" class="btn btn-primary custom_drop" value="Buskare">
+                </div>
+                
+                
             </form>
             <br><br>
         </div>

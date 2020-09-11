@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/lagartixa.png">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/rangolango-style.css">
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/marco.js"></script>
+    <title>Rango Lango</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="col-1">
+            <a href="index.html" class="btn" aria-label="Home Page">
+                <img src="img/icons/home.svg" width="32" height="32"  class="filter-brown" alt="Home">
+            </a>
+        </div>
+        <div class="dropdown">
+            <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="img/icons/receitas.svg" width="32" height="32" class="filter-brown"  alt="Receitas">
+            </button>
+            <div class="dropdown-menu my-2 custom_drop" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item custom_drop" onclick="bttnRandom()">Receita Aleatória</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item custom_drop" href="shimeji.html">Hamburguer de shimeji</a>
+                <a class="dropdown-item custom_drop" href="cebola_caramelo.html">Cebola caramelizada</a>
+                <a class="dropdown-item custom_drop" href="strogonoff.html">Strogonoff de frango</a>
+            </div>
+        </div>
+        <div class="col-1">
+            <a href="search.html" class="btn" aria-label="Home Page">
+                <img src="img/icons/search.svg" width="32" height="32" class="filter-brown"  alt="Pesquisar">
+            </a>
+        </div>
+        <div class="col-7"></div>
+    </nav>
+
+    <div class="row py-1"></div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col midpage py-2"><br>
+            <h2 class="col-9">Cebola Caramelizada</h2>
+            <h6 class="text-right" style="position: absolute; right: 1.5em; float: top; top: 1.5em">Preparo: 30 min<br>Rende: 2 porções</h6>
+            <br>
+            <!----------------------------------------------------------------------------->
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <strong><em>Ingredientes</em></strong>
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+
+                    
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="ing1">
+                        <label class="custom-control-label" for="ing1">2 Cebolas médias</label>
+                    </div><br>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="ing2">
+                        <label class="custom-control-label" for="ing2">2 colheres de sopa de Açúcar mascavo</label>
+                    </div><br>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="ing3">
+                        <label class="custom-control-label" for="ing3">2 colheres de sopa de Molho shoyu</label>
+                    </div><br>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="ing4">
+                        <label class="custom-control-label" for="ing4">1 colher de sopa de Manteiga</label>
+                    </div><br>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <strong><em>Mise en place</em></strong>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Separar os ingredientes;<br>
+                        Descascar e picar a cebola, não corte as fatias finas demais ou grossas demais (ideal= ~5mm);<br>
+                        Certifique-se de que você tem uma panela;<br>
+                        Certifique-se de que você está com paciência, não aumente o fogo; isso faz com que as cebolas fiquem queimadas
+                        e não caramelizadas<br>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong><em>Modo de preparo</em></strong>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        1) Em uma panela grande, aqueça a manteiga e adicione a cebola. Refogue em fogo baixo até a cebola ficar transparente;
+                        <br><br>2) Acrescente o shoyu e o açúcar e mexa para misturar e separar os aros da cebola, em fogo baixo também;
+                        <br><br>3) Deixe a mistura secar, até a cebola ficar caramelizada. Tome cuidado para não passar no ponto do caramelo para não acabar fazendo uma bala de cebola!
+                        <br><br>4) Deixe esfriar um pouco e sirva, este é um prato que combina muito com lanches de carne bovina.
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <!----------------------------------------------------------------------------->
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <br>
+
+</body>
+</html>
