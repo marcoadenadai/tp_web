@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/puzzle-piece.svg">
+    <!--div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div-->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link type="text/css" rel="stylesheet" href="css/quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet">
+    <script type="text/javascript" src="arquivo.json" charset="utf-8"></script>
+    <script type="text/javascript" src="js/script0.js" charset="utf-8"></script>
+    <!--script type="text/javascript" src="js/marco.js"></script-->
+    <title>Quiz dos Pássaros</title>
+</head>
+<body onload="new_question();">
+    <div class="row py-1"></div>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col midpage py-2">
+            <h1>Quiz dos Pássaros</h1>
+            <h3>Esse é um quiz para testar seus conhecimentos sobre aves, você está preparado?</h3>
+            <form>
+                <br>
+                <h4>Q<span id="qid">1</span>) Que pássaro é esse?</h4>
+                    <h5 style="color: rgb(17, 192, 119);position: absolute; right: 1.5em; float: right; top: 11em">Pontuação: <span id="pts">0</span></h5>
+                    <!--imagem/espaço vazio-->
+                    <div id = "image_place" class="imgsz mx-auto">
+                        <!--img src="img/guara.jpeg" class="imgsz"-->
+                    </div>
+                    <br>
+                    <!-- selection e button aqui -->         
+                    <!--var input = document.getElementById('op_a');
+                        var label = input.getElementsByTagName('label')[0];
+                        label.innerHTML = 'New Text';
+                        -->
+                        <input type="radio" value="a" name="opcoes" checked>
+                        <label id="a" for="op_a">Nome 1</label>
+                        <input type="radio" value="b" name="opcoes">
+                        <label id="b" for="op_b">Nome 2</label>
+                        <br><input class="bttn" type="button" value="Próximo" onclick="enviaepontos()">
+                        <input type="radio" value="c" name="opcoes">
+                        <label id="c" for="op_b">Nome 3</label>
+                        <input type="radio" value="d" name="opcoes">
+                        <label id="d" for="op_b">Nome 4</label>
+                        
+                      
+            </form>
+            <br>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</body>
+</html>

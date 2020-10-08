@@ -1,0 +1,106 @@
+var data = [
+    {
+        "id":0,
+        "alt": [
+            "araçari-mulato","tucano-das-filipinas","tucano-tambaqui","ramphastos-sulfuraus"
+        ],
+        "img":"./img/quiz/01.jpg",
+        "resposta": 0
+    },
+    {
+        "id":1,
+        "alt": [
+            "cacatua","pato-enxada","whinffrey-duck","bico-de-tamanco"
+        ],
+        "img":"./img/quiz/02.jpg",
+        "resposta": 3
+    },
+    {
+        "id":2,
+        "alt": [
+            "tucano-dublê","pelicano-coral","calau-de-malabar","ariça-australiano"
+        ],
+        "img":"./img/quiz/03.jpg",
+        "resposta": 2
+    },
+    {
+        "id":3,
+        "alt": [
+            "canário-da-serra","canário-da-terra","canalha-da-pedra","canário-australiano"
+        ],
+        "img":"./img/quiz/04.jpg",
+        "resposta": 1
+    },
+    {
+        "id":4,
+        "alt": [
+            "chapim-azul","mordecai","periquito-safira","saí-azul"
+        ],
+        "img":"./img/quiz/05.jpg",
+        "resposta": 0
+    },
+    {
+        "id":5,
+        "alt": [
+            "sapo-alucinogeno","azulzinho-da-cauda","fred","cotinga-pintada"
+        ],
+        "img":"./img/quiz/06.jpg",
+        "resposta": 3
+    },
+    {
+        "id":6,
+        "alt": [
+            "pato-tristonho","dodô","fradinho","pelicano"
+        ],
+        "img":"./img/quiz/07.jpg",
+        "resposta": 2
+    },
+    {
+        "id":7,
+        "alt": [
+            "flamingo-flamenco","guara","rubus-mingolys","ave-rubra"
+        ],
+        "img":"./img/quiz/08.jpeg",
+        "resposta": 1
+    },
+    {
+        "id":8,
+        "alt": [
+            "poupa-eurásiatica","mohawk-bird","perua-holandesa","zebrado-amazônico"
+        ],
+        "img":"./img/quiz/09.jpg",
+        "resposta": 0
+    },
+    {
+        "id":9,
+        "alt": [
+            "arariça-verde","periquito-da-ilha","bico-negro","quetzal"
+        ],
+        "img":"./img/quiz/10.jpg",
+        "resposta": 3
+    },
+    {
+        "id":10,
+        "alt": [
+            "passarinho-agulha","beija-flor","rabo-branco-de-bico-reto","bico-virado-carijó"
+        ],
+        "img":"./img/quiz/11.jpg",
+        "resposta": 2
+    },
+    {
+        "id":11,
+        "alt": [
+            "agapornis","sabiá-laranjeira","colibri","passarinho-estilingue"
+        ],
+        "img":"./img/quiz/12.jpg",
+        "resposta": 1
+    },
+    {
+        "id":12,
+        "alt": [
+            "sterna-inca","bico-de-bigode","bico-rubrus","australo-pitacus"
+        ],
+        "img":"./img/quiz/13.jpg",
+        "resposta": 0
+    }
+];

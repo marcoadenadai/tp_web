@@ -1,0 +1,31 @@
+body {
+    background-image: url(../img/background.svg);
+    font-family: 'Judson', serif;
+    font-size: 1.2em;
+    color: rgb(36, 31, 71);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo Black', sans-serif;
+    color: darkslateblue;
+}
+
+.midpage {  background-color: #f0f0f0;
+    box-shadow: 0.07em 0.05em 0.2em 0em;    
+}
+
+.imgsz {
+    height: 20em;
+    width: 25em;
+}
+
+.bttn {
+    position: absolute;
+    right: 1.5em;
+    bottom: 1.5em;
+    outline: 0;
+    border:0;
+    padding: 0.6em;
+    font-size: 1.1em;
+    background-color: greenyellow;
+}
